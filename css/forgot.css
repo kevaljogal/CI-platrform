@@ -1,0 +1,133 @@
+@media screen and (min-width:360px) and (max-width:1000px){
+    .forgot {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .f1 {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .f2 {
+        text-align: center;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    label{
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    #exampleInputEmail2 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 5px;
+    }
+    .a2{
+        color: #414141;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1440px) {
+    .forgot {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f1 {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .f2 {
+        text-align: center;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    label{
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    #exampleInputEmail2 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 10px;
+    }
+    .a2{
+        color: #414141;
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:1441px) {
+    .forgot {
+        width: 576px;
+        height: 983px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f1 {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .f2 {
+        text-align: center;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    label{
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    #exampleInputEmail2 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 14px;
+    }
+    .a2{
+        color: #414141;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+@media screen and (min-width:360px) and (max-width:1000px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        height: 50%;
+        width: 100%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .ih1 {
+        text-align: left;
+        font-size: 20px;
+        /* line-height: 100%; */
+    }
+
+    .ih2 {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .login {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .form-group {
+        width: 120%;
+        margin-bottom: 10px;
+    }
+    label {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #exampleInputEmail1 {
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #2B64B1;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 5px;
+    }
+
+    #exampleInputPassword1 {
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 5px;
+    }
+
+    .btn {
+        width: 100%;
+        /* height: 48px; */
+        border: 2px solid #F88634;
+        border-radius: 24px;
+        opacity: 1;
+        color: #F88634;
+        margin-bottom: 17px;
+    }
+
+    #a1 {
+        text-decoration: none;
+        color: #414141;
+        font-size: 14px;
+    }
+
+    .l1 {
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        margin-bottom: 15px;
+    }
+
+    .l2 {
+        color: #414141;
+        font-size: 14px;
+        /* margin-bottom: 127px; */
+    }
+
+    .a2 {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .l3 {
+        color: #414141;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1440px) {
+    .container-fluid {
+        display: flex;
+    }
+
+    .image {
+        height: auto;
+        width: 50%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .ih1 {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .ih2 {
+        text-align: left;
+        font-size: 9px;
+    }
+
+    .login {
+        height: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-group {
+        width: 140%;
+        margin-bottom: 10px;
+    }
+
+    label {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #exampleInputEmail1 {
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #2B64B1;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 10px;
+    }
+
+    #exampleInputPassword1 {
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 140%;
+        border: 2px solid #F88634;
+        border-radius: 24px;
+        opacity: 1;
+        color: #F88634;
+        margin-bottom: 17px;
+    }
+
+    #a1 {
+        text-decoration: none;
+        color: #414141;
+        font-size: 14px;
+    }
+
+    .l1 {
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        margin-bottom: 15px;
+    }
+
+    .l2 {
+        color: #414141;
+        font-size: 14px;
+    }
+
+    .a2 {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .l3 {
+        color: #414141;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .container-fluid {
+        display: flex;
+    }
+
+    .image {
+        height: 983px;
+        width: 1344px;
+    }
+
+    img {
+        height: 983px;
+        width: 100%;
+    }
+
+    .ih1 {
+        text-align: left;
+        font-size: 43px;
+        line-height: 100%;
+    }
+
+    .ih2 {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .login {
+        height: 983px;
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-group {
+        width: 97%;
+        margin-bottom: 23px;
+    }
+    label {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #414141;
+        opacity: 1;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #exampleInputEmail1 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #2B64B1;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 14px;
+    }
+
+    #exampleInputPassword1 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        opacity: 1;
+        padding: 14px;
+    }
+
+    .btn {
+        width: 401px;
+        height: 48px;
+        background: #F8863400 0% 0% no-repeat padding-box;
+        border: 2px solid #F88634;
+        border-radius: 24px;
+        opacity: 1;
+        color: #F88634;
+        margin-bottom: 17px;
+    }
+
+    #a1 {
+        text-decoration: none;
+        color: #414141;
+        font-size: 14px;
+    }
+
+    .l1 {
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        margin-bottom: 15px;
+    }
+
+    .l2 {
+        color: #414141;
+        font-size: 14px;
+        margin-bottom: 227px;
+    }
+
+    .a2 {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .l3 {
+        color: #414141;
+        font-size: 14px;
+
+    }
+
+}
