@@ -45,7 +45,7 @@
 }
 @media screen and (min-width:1001px) and (max-width:1440px) {
     .forgot {
-        width: 50%;
+        width: 40%;
         height: auto;
         display: flex;
         flex-direction: column;
