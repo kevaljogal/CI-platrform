@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forgot password</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
     <link rel="stylesheet" href="css/forgot.css">
 </head>
 
@@ -77,9 +77,9 @@
                             placeholder="Enter your email address...">
                     </div>
                     
-                    <button type="submit" class="btns">Reset my Password</button>
+                    <button type="submit" class="btn btns" asp-controller="Home" asp-action="index1">Reset my Password</button>
                 </form>
-                <p class="l2"><a class="a2" href="#">Login</a></p>
+                <p class="l2"><a class="a2" asp-controller="Home" asp-action="Index">Login</a></p>
                     <p class="l3">Privacy Policy</p>
 
         </div>

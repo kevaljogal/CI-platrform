@@ -23,6 +23,11 @@ namespace CI_plateform.Controllers
             return View();
         }
 
+        public IActionResult resetpassword()
+        {
+            return View();
+        }
+
         public IActionResult register()
         {
             return View();
