@@ -1,53 +1,63 @@
-@media only screen and (min-width:360px) and (max-width:760px){
-   .Toggelmenu{
-    display: block;
-    height: 30px;
-    width: 30px;
-    border: none;
-    background: transparent url('img/Layer 63.png') 0% 0% no-repeat padding-box;
-   }
-   #Toggel{
-    display: none;
-    border: none;
-   }
-   .Second{
-    display: flex;
-    flex-direction: column;
-   }
-   #Dropmenu{
-    flex-direction: column;
-   }
-    .First{
+@media only screen and (min-width:360px) and (max-width:760px) {
+    .Toggelmenu {
+        display: block;
+        height: 30px;
+        width: 30px;
+        border: none;
+        background: transparent url('img/Layer 63.png') 0% 0% no-repeat padding-box;
+    }
+
+    #Toggel {
+        display: none;
+        border: none;
+    }
+
+    .Second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Dropmenu {
+        flex-direction: column;
+    }
+
+    .First {
         height: auto;
         align-items: center;
     }
-    .Firstleft{
+
+    .Firstleft {
         justify-content: left;
         font-size: 16px;
     }
-    .Firststories{
+
+    .Firststories {
         margin-right: 10px;
     }
-    .Firstright{
-        justify-content: flex-start; 
+
+    .Firstright {
+        justify-content: flex-start;
         font-size: 15px;
     }
-    .FRimage{
+
+    .FRimage {
         height: 40px;
         width: 40px;
         margin-right: 10px;
         display: flex;
         margin-top: 5px;
     }
-    
-    header{
+
+    header {
         height: auto;
     }
-    .Secondleft{
+
+    .Secondleft {
         height: auto;
         padding: 0;
     }
-    .Secondserch{
+
+    .Secondserch {
         height: 100%;
         width: 50%;
         padding: 0;
@@ -55,11 +65,13 @@
         font-size: 20px;
         text-align: center;
     }
-    .row{
-        margin-right: 0; 
+
+    .row {
+        margin-right: 0;
         margin-left: 0;
     }
-    .Seconddrop{
+
+    .Seconddrop {
         width: 100px;
         height: auto;
         align-items: center;
@@ -69,53 +81,120 @@
         justify-content: space-between;
         border: 0;
     }
+
+    .Master {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Main {
+        width: 1442px;
+        height: 2122px;
+        opacity: 1;
+    }
+
+    /* .Third{
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    .Thirdleft {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-size: 24px;
+    }
+
+    .Thirdleft span {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .Thirddrop {
+        height: 38px;
+        width: 171px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    .Thirdright {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Thirdrightb button {
+        border: none;
+        border-radius: 50%;
+    }
 }
-@media only screen and (min-width:761px) and (max-width:1440px){
-   .Toggelmenu{
-    display: none;
-   }
-   /* #Toggel{
+
+@media only screen and (min-width:761px) and (max-width:1440px) {
+    .Toggelmenu {
+        display: none;
+    }
+
+    /* #Toggel{
     display: block;
    } */
-    .First{
+    .First {
         height: 72px;
         align-items: center;
     }
-    .Firstleft{
+
+    .Firstleft {
         justify-content: center;
         font-size: 16px;
     }
-    .Firststories{
+
+    .Firststories {
         margin-right: 50px;
     }
-    .Firstright{
-        justify-content: flex-start; 
+
+    .Firstright {
+        justify-content: flex-start;
         font-size: 15px;
     }
-    .FRimage{
+
+    .FRimage {
         height: 40px;
         width: 40px;
         margin-right: 10px;
     }
-    header{
+
+    header {
         height: auto;
     }
-    .Secondleft{
+
+    .Secondleft {
         height: auto;
         padding: 0;
     }
-    .Secondleft img{
+
+    .Secondleft img {
         height: 22px;
         width: 21px;
     }
-    .Secondserch{
+
+    .Secondserch {
         height: 100%;
         padding: 0;
         align-items: center;
         /* padding-left: 275px; */
         font-size: 20px;
     }
-    .Seconddrop{
+
+    .Seconddrop {
         width: 181px;
         align-items: center;
         display: flex;
@@ -124,50 +203,117 @@
         justify-content: space-between;
         border: 1px solid rgb(203, 201, 201);
     }
+
+    .Master {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Main {
+        width: 1442px;
+        height: 2122px;
+        opacity: 1;
+    }
+
+    .Third {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Thirdleft {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-size: 24px;
+    }
+
+    .Thirdleft span {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .Thirddrop {
+        height: 38px;
+        width: 171px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    .Thirdright {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Thirdrightb button {
+        border: none;
+        border-radius: 50%;
+    }
 }
-@media only screen and (min-width:1441px){
-   .Toggelmenu{
-    display: none;
-   }
-    .First{
+
+@media only screen and (min-width:1441px) {
+    .Toggelmenu {
+        display: none;
+    }
+
+    .First {
         height: 72px;
         align-items: center;
     }
-    .Firstleft{
+
+    .Firstleft {
         justify-content: center;
         font-size: 16px;
     }
-    .Firststories{
+
+    .Firststories {
         margin-right: 50px;
     }
-    .Firstright{
-        justify-content: flex-end; 
+
+    .Firstright {
+        justify-content: flex-end;
         font-size: 15px;
     }
-    .FRimage{
+
+    .FRimage {
         height: 40px;
         width: 40px;
         margin-right: 10px;
     }
-    header{
+
+    header {
         height: 78px;
     }
-    .Secondleft{
+
+    .Secondleft {
         height: 78px;
         padding: 0;
     }
-    .Secondleft img{
+
+    .Secondleft img {
         height: 22px;
         width: 21px;
     }
-    .Secondserch{
+
+    .Secondserch {
         height: 100%;
         padding: 0;
         align-items: center;
         padding-left: 275px;
         font-size: 20px;
     }
-    .Seconddrop{
+
+    .Seconddrop {
         width: 181px;
         align-items: center;
         display: flex;
@@ -175,5 +321,155 @@
         font-size: 15px;
         justify-content: space-between;
         border: 1px solid rgb(203, 201, 201);
+    }
+
+    /* Start */
+
+    .Master {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Main {
+        top: 230px;
+        left: 238px;
+        width: 1442px;
+        height: 2122px;
+        opacity: 1;
+    }
+
+    .Third {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Thirdleft {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-size: 24px;
+    }
+
+    .Thirdleft span {
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #414141;
+        opacity: 1;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .Thirddrop {
+        height: 38px;
+        width: 171px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    .Thirdright {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Thirdrightb button {
+        border: none;
+        border-radius: 50%;
+        margin: 0px 10px;
+        color: #FFFFFA;
+        cursor: pointer;
+        /* > * {
+            pointer-events: none;
+          } */
+    }
+
+    /* new */
+    /* Create two equal columns that floats next to each other */
+    .card {
+        /* float: left; */
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+        width: 460px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .Mission1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Image1 {
+        height: 220px;
+        /* width: 460px; */
+        position: relative;
+    }
+
+    .Pimage2 {
+        position: absolute;
+        top: 30px;
+        left: 314px;
+        width: 117px;
+        height: 35px;
+        background: #000000 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 0.5;
+        color: #FFFFFF;
+        padding: 4px;
+    }
+
+    .Objective {
+        position: absolute;
+        top: 217px;
+        left: 162px;
+        width: 127px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .Mspan {
+        position: absolute;
+        top: 132px;
+        left: 398px;
+        width: 42px;
+        height: 42px;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+    }
+
+    .Image3 {
+        position: absolute;
+        top: 132px;
+        left: 398px;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .Image4 {
+        position: absolute;
+        top: 175px;
+        left: 398px;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
     }
 }
