@@ -78,11 +78,11 @@
             </form>
             <div class="col-lg-6 col-md-8  d-flex p-0" id="Dropmenu">
                 <div class="dropdown  Seconddrop">
-                    <p class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    <p class="dropdown pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Country
-                        <img src="images/drop-down.png" alt="error">
                     </p>
+                    <img src="images/drop-down.png" alt="error">
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -90,11 +90,11 @@
                     </div>
                 </div>
                 <div class="dropdown Seconddrop">
-                    <p class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    <p class="dropdown pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         City
-                        <img src="images/drop-down.png" alt="error">
                     </p>
+                    <img src="images/drop-down.png" alt="error">
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -102,11 +102,11 @@
                     </div>
                 </div>
                 <div class="dropdown Seconddrop">
-                    <p class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    <p class="dropdown pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Themes
-                        <img src="images/drop-down.png" alt="error">
                     </p>
+                    <img src="images/drop-down.png" alt="error">
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -114,11 +114,11 @@
                     </div>
                 </div>
                 <div class="dropdown Seconddrop">
-                    <p class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    <p class="dropdown pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Skills
-                        <img src="images/drop-down.png" alt="error">
                     </p>
+                    <img src="images/drop-down.png" alt="error">
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -146,88 +146,1076 @@
                         </div>
                     </div>
                     <div class="Thirdrightb">
-                        <button class="grid" onclick="gridView()"><i class="fa fa-th-large"></i><img
-                                src="images/grid.png" alt="not load"></button>
-                        <button class="list" onclick="listView()"><i class="fa fa-list"></i><img src="images/list.png"
+                        <button class="grid" onclick="mygridView()" onclick="gridView()"><i
+                                class="fa fa-th-large"></i><img src="images/grid.png" alt="not load"></button>
+                        <button class="list" onclick="mylistView()"><i class="fa fa-list"></i><img src="images/list.png"
                                 alt="not load"></button>
                     </div>
                 </div>
             </div>
-            <div class="row Mission1">
-                <div class="card">
-                    <img class="card-img-top Image1" src="images/Grow-Trees-On-the-path-to-environment-sustainability.png"
-                        alt="Card image cap">
-                        <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
-                      <img class="Image3" src="images/heart.png" alt="heart image">  
-                      <img class="Image4" src="images/heart.png" alt="heart image">   
-                        <p class="Objective">Environment</p>                   
-                    <div class="card-body">
-                        <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore...</p>
-                        div.Rating
+            <div class="vgrid" id="grid1">
+                <!-- first row -->
+                <div class="row Mission1">
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1"
+                                src="images/Grow-Trees-On-the-path-to-environment-sustainability.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Environment</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Grow Trees - On the path to environment sustainability</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>Tree Canada</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <p class="MDpara">From 10/01/2019 to 25/02/2019</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1"
+                                src="images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-2.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Children</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Education Supplies for Every Pair of Shoes Sold</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>Australian Paradise</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <p class="MDpara">From 10/01/2019 to 25/02/2019</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1" src="images/Nourish-the-Children-in--African-country-1.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Nutrition</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Nourish the Children in African country</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>The Hunger</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <p class="MDpara">Ongoing Opportunity</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- second row -->
+
+                <div class="row Mission1">
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1"
+                                src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Environment</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">CSR initiative stands for Coffee and Farmer Equity</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>CSE Network</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+
+                                <p class="MDpara">Ongoing Opportunity</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1" src="images/Animal-welfare-&-save-birds-campaign.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Animal</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Animal welfare & save birds campaign</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>JR Foundation</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="MDpara">Plant 10,000 Trees</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1" src="images/Plantation-and-Afforestation-programme.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Health</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Plantation and Afforestation programme</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>Amaze Doctors</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="MDpara">From 10/01/2019 to 25/02/2019</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- third row -->
+
+                <div class="row Mission1">
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1"
+                                src="images/Grow-Trees-On-the-path-to-environment-sustainability.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Education</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Grow Trees - On the path to environment sustainability</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor
+                                in reprehenderit...
+                            </p>
+                            <div class="Rating">
+                                <P>Tree Canada</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">View Details
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1"
+                                src="images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Children</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Education Supplies for Every Pair of Shoes Sold</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>Tree Canada</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <p class="MDpara">From 10/01/2019 to 25/02/2019</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-8">
+                        <div class="card-head">
+                            <img class="card-img-top Image1" src="images/Nourish-the-Children-in--African-country-1.png"
+                                alt="Card image cap">
+                            <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                            <img class="Image3" src="images/heart.png" alt="heart image">
+                            <img class="Image4" src="images/heart.png" alt="heart image">
+                            <p class="Objective">Nutrition</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Nourish the Children in African country</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore...</p>
+                            <div class="Rating">
+                                <P>Junior Charity</P>
+                                <div>
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/selected-star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                    <img src="images/star.png" alt="error">
+                                </div>
+                            </div>
+                            <div class="Missiond row border-bottom border-top">
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft col-6">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <p class="MDpara">From 10/01/2019 to 25/02/2019</p>
+                            </div>
+                            <div class="foot">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-              
-                <div class="card">
-                    <img class="card-img-top Image1" src="images/Grow-Trees-On-the-path-to-environment-sustainability.png"
-                        alt="Card image cap">
-                        <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>  
-                        <p class="Objective">Environment</p>                   
-                    <div class="card-body">
-                        <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
+            </div>
+            <div class="vlist" id="list1">
+                <!-- 1 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1"
+                            src="images/Grow-Trees-On-the-path-to-environment-sustainability.png" alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Environment</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Environment</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Grow Trees - On the path to environment sustainability</p>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">From 10/01/2019 </span>
+                                        <span class="p-0 P2">untill 25/02/2019</span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 2 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1"
+                            src="images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-2.png" alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Children</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Children</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Education Supplies for Every Pair of Shoes Sold</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">From 10/01/2019 </span>
+                                        <span class="p-0 P2">untill 25/02/2019</span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 3     -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1" src="images/Nourish-the-Children-in--African-country-1.png"
+                            alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Nutrition</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Nutrition</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Nourish the Children in African country</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">Ongoing Opportunity </span>
+                                        <span class="p-0 P2"></span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 4 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1"
+                            src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Environment</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Environment</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">CSR initiative stands for Coffee and Farmer Equity</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">Ongoing Opportunity </span>
+                                        <span class="p-0 P2"></span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 5 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1" src="images/Animal-welfare-&-save-birds-campaign.png"
+                            alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Animal</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Animal</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Animal welfare & save birds campaign</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">Plant 10,000 Trees </span>
+                                        <span class="p-0 P2"></span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 6 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1" src="images/Plantation-and-Afforestation-programme.png"
+                            alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Health</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Health</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Plantation and Afforestation programme</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">From 10/01/2019 </span>
+                                        <span class="p-0 P2">untill 25/02/2019</span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 7 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1"
+                            src="images/Grow-Trees-On-the-path-to-environment-sustainability.png" alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Environment</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Environment</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Grow Trees - On the path to environment sustainability</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <!-- <div class="Missiondleft ">
+                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                    <div class="MLpara">
+                        <span class="p-0 P1">10</span>
+                        <span class="p-0 P2">Seats left</span>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top Image1" src="images/Grow-Trees-On-the-path-to-environment-sustainability.png"
-                    alt="Card image cap">
-                    <p class="Pimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>  
-                    <p class="Objective">Environment</p>                   
-                <div class="card-body">
-                    <h5 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore...</p>
+                <div class="Missiondleft ">
+                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                    <div class="MLpara">
+                        <span class="p-0 P1">09/01/2019</span>
+                        <span class="p-0 P2">Deadline</span>
+                    </div>
                 </div>
-                </div>
+                <div class="Missiondleft ">
+                    <img class="Proicon" src="images//calender.png" alt="errors">
+                    <div class="MLpara">
+                        <span class="p-0 P1">From 10/01/2019 </span>
+                        <span class="p-0 P2">untill 25/02/2019</span>
+                    </div>
+                </div> -->
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+                <!-- 8 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1"
+                            src="images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Children</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Children</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Education Supplies for Every Pair of Shoes Sold</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Already-volunteered.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">250</span>
+                                        <span class="p-0 P2">Already volunteered</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">From 10/01/2019 </span>
+                                        <span class="p-0 P2">untill 25/02/2019</span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 9 -->
+                <div class="lcard mt-4">
+                    <div class="Lcard-head">
+                        <img class="card-img-top LImage1" src="images/Nourish-the-Children-in--African-country-1.png"
+                            alt="Card image cap">
+                        <p class="LPimage2"><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                        <img class="LImage3" src="images/heart.png" alt="heart image">
+                        <img class="LImage4" src="images/add1.png" alt="heart image">
+                        <p class="LObjective">Nutrition</p>
+                    </div>
+                    <div class="Lcard-body1">
+                        <div class="LRating">
+                            <div class="LRatingleft">
+                                <p class=""><img class="image2" src="images/pin1.png" alt="pin image"> Toronto </p>
+                                <p class=""><img src="images/web.png" alt=""> Nutrition</p>
+                                <p><img src="images/organization.png" alt=""> Smith International Carring Foundation</p>
+                            </div>
+                            <div class="LRatingright">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/selected-star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                                <img src="images/star.png" alt="error">
+                            </div>
+                        </div>
+                        <p class="card-title">Nourish the Children in African country</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore...</p>
+
+                        <div class="Lfoot row">
+                            <div class="Lfootleft col-8">
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/Seats-left.png" alt="error">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">10</span>
+                                        <span class="p-0 P2">Seats left</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images/deadline.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">09/01/2019</span>
+                                        <span class="p-0 P2">Deadline</span>
+                                    </div>
+                                </div>
+                                <div class="Missiondleft ">
+                                    <img class="Proicon" src="images//calender.png" alt="errors">
+                                    <div class="MLpara">
+                                        <span class="p-0 P1">From 10/01/2019 </span>
+                                        <span class="p-0 P2">untill 25/02/2019</span>
+                                    </div>
+                                </div>
+                                <div class="MLpara">
+                                    <span class="p-0 P1">Skills</span>
+                                    <span class="p-0 P2">Boundy</span>
+                                </div>
+                            </div>
+                            <div class="Lfootright col-4">
+                                <button class="btn">Apply
+                                    <img src="images/right-arrow.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-            <div class="row mission1">
-                <div class="column" style="background-color:#aaa;">
-                    <h2>Column 1</h2>
-                    <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#bbb;">
-                    <h2>Column 2</h2>
-                    <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#aaa;">
-                    <h2>Column 3</h2>
-                    <p>Some text..</p>
-                </div>
+            <!-- <div aria-label="Page "> -->
+            <!-- navigation example -->
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#" aria-label="Previous">
+                        < </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item actives" aria-current="page">
 
-
-            </div>
-            <div class="row mission1">
-                <div class="column" style="background-color:#aaa;">
-                    <h2>Column 1</h2>
-                    <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#bbb;">
-                    <h2>Column 2</h2>
-                    <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#aaa;">
-                    <h2>Column 3</h2>
-                    <p>Some text..</p>
-                </div>
-
-
-            </div>
-
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#" aria-label="Next">></a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- </div> -->
         </div>
+        <!-- <footer class="border-top">
+            <div>Privacy Policy</div>
+        </footer> -->
     </div>
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

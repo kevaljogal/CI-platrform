@@ -1,3 +1,222 @@
+.card-title {
+    font-size: 26px;
+    color: #414141;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #757575;
+}
+
+.Rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rating p {
+    font-size: 16px;
+    color: #414141;
+}
+
+.Missiond {
+    display: flex;
+    position: relative;
+}
+
+.Missiondleft {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Proicon {
+    height: 25px;
+    width: 25px;
+}
+
+.MLpara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: left; */
+    font-size: 15px;
+    color: #414141;
+}
+
+.P1 {
+    font-size: 18px;
+    color: #414141;
+    font-weight: bold;
+}
+
+.P2 {
+    font-size: 14px;
+    color: #757575;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F88634;
+    width: 133px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+/* for list view */
+#grid1 {
+    display: block;
+}
+
+#list1 {
+    display: none;
+}
+
+.lcard {
+    display: flex;
+    width: 100%;
+}
+
+.Lcard-head {
+    position: relative;
+    width: 25%;
+}
+
+.LImage1 {
+    height: 230px;
+    width: 100%;
+    position: relative;
+}
+
+.LPimage2 {
+    position: absolute;
+    top: 30px;
+    right: 6%;
+    width: 117px;
+    height: 35px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+.LImage3 {
+    position: absolute;
+    top: 100px;
+    right: 6%;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.LImage4 {
+    position: absolute;
+    top: 150px;
+    right: 6%;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.Lcard-body1 {
+    width: 75%;
+    padding: 10px;
+}
+
+.LRating {
+    display: flex;
+    justify-content: space-between;
+}
+.LRatingleft{
+    display: flex;
+}
+
+.LRating p {
+    margin-right: 20px;
+}
+
+.Lfoot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.Lfootleft{
+    display: flex;
+    justify-content: space-around;
+}
+.Lfootright{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.LObjective {
+    position: absolute;
+    top: 217px;
+    left: 108px;
+    width: 127px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    opacity: 1;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Lcard-body2 {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.LMDpara {
+    position: absolute;
+    top: -16px;
+    left: 60px;
+    width: 273px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.actives .page-link {
+    background-color: #F88634;
+    color: #FFFFFF;
+}
+.page-link{
+    color: #757575;
+}
+
+.page-item {
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    margin: 3px;
+}
+
 @media only screen and (min-width:360px) and (max-width:760px) {
     .Toggelmenu {
         display: block;
@@ -99,7 +318,7 @@
     } */
 
     .Thirdleft {
-        text-align: left;
+        text-align: center;
         letter-spacing: NaNpx;
         color: #414141;
         opacity: 1;
@@ -125,7 +344,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-right: 40px;
+        margin-left: 40px;
     }
 
     .Thirdright {
@@ -137,9 +356,103 @@
         border: none;
         border-radius: 50%;
     }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 25px #0000000F;
+        border-radius: 3px;
+        opacity: 1;
+    }
+
+    .Image1 {
+        height: 220px;
+        /* width: 460px; */
+        position: relative;
+    }
+
+    .Pimage2 {
+        position: absolute;
+        top: 30px;
+        right: 6%;
+        width: 98px;
+        height: 35px;
+        background: #000000 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 0.5;
+        color: #FFFFFF;
+        padding: 4px;
+    }
+
+    .Objective {
+        position: absolute;
+        top: 217px;
+        left: 35%;
+        width: 127px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 1;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Mspan {
+        position: absolute;
+        top: 132px;
+        left: 398px;
+        width: 42px;
+        height: 42px;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+    }
+
+    .Image3 {
+        position: absolute;
+        top: 132px;
+        right: 6%;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .Image4 {
+        position: absolute;
+        top: 175px;
+        right: 6%;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .MDpara {
+        position: absolute;
+        top: -16px;
+        left: 82px;
+        width: 273px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E8E8E8;
+        border-radius: 18px;
+        opacity: 1
+    }
+
 }
 
 @media only screen and (min-width:761px) and (max-width:1440px) {
+    .Mission1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .Toggelmenu {
         display: none;
     }
@@ -259,6 +572,94 @@
         border: none;
         border-radius: 50%;
     }
+
+    .card {
+        /* width: 33%; */
+        padding: 10px;
+        /* width: 460px; */
+        margin: 10px;
+        border: none;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 25px #0000000F;
+        border-radius: 3px;
+        opacity: 1;
+    }
+
+    .Image1 {
+        height: 220px;
+        /* width: 460px; */
+        position: relative;
+    }
+
+    .Pimage2 {
+        position: absolute;
+        top: 30px;
+        right: 6%;
+        width: 98px;
+        height: 35px;
+        background: #000000 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 0.5;
+        color: #FFFFFF;
+        padding: 4px;
+    }
+
+    .Objective {
+        position: absolute;
+        top: 217px;
+        left: 35%;
+        width: 127px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 18px;
+        opacity: 1;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .Mspan {
+        position: absolute;
+        top: 132px;
+        left: 398px;
+        width: 42px;
+        height: 42px;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+    }
+
+    .Image3 {
+        position: absolute;
+        top: 132px;
+        right: 6%;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .Image4 {
+        position: absolute;
+        top: 175px;
+        right: 6%;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .MDpara {
+        position: absolute;
+        top: -16px;
+        left: 82px;
+        width: 273px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E8E8E8;
+        border-radius: 18px;
+        opacity: 1
+    }
 }
 
 @media only screen and (min-width:1441px) {
@@ -317,9 +718,10 @@
         width: 181px;
         align-items: center;
         display: flex;
+        justify-content: space-evenly;
         padding-left: 15px;
         font-size: 15px;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         border: 1px solid rgb(203, 201, 201);
     }
 
@@ -328,6 +730,7 @@
     .Master {
         display: flex;
         justify-content: center;
+        height: auto;
     }
 
     .Main {
@@ -392,11 +795,15 @@
     /* new */
     /* Create two equal columns that floats next to each other */
     .card {
-        /* float: left; */
-        width: 50%;
+        /* width: 33%; */
         padding: 10px;
-        margin: 10px;
         width: 460px;
+        margin: 10px;
+        border: none;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 25px #0000000F;
+        border-radius: 3px;
+        opacity: 1;
     }
 
     /* Clear floats after the columns */
@@ -407,8 +814,8 @@
     }
 
     .Mission1 {
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
     }
 
     .Image1 {
@@ -440,6 +847,7 @@
         border-radius: 18px;
         opacity: 1;
         text-align: center;
+        font-size: 16px;
     }
 
     .Mspan {
@@ -462,6 +870,7 @@
         height: 30px;
         border-radius: 50%;
     }
+
     .Image4 {
         position: absolute;
         top: 175px;
@@ -472,4 +881,97 @@
         height: 30px;
         border-radius: 50%;
     }
+
+    .card-title {
+        font-size: 26px;
+        color: #414141;
+    }
+
+    .card-text {
+        font-size: 15px;
+        color: #757575;
+    }
+
+    .Rating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Rating p {
+        font-size: 16px;
+        color: #414141;
+    }
+
+    .Missiond {
+        display: flex;
+        position: relative;
+    }
+
+    .Missiondleft {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Proicon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .MLpara {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* text-align: left; */
+        font-size: 15px;
+        color: #414141;
+    }
+
+    .P1 {
+        font-size: 18px;
+        color: #414141;
+        font-weight: bold;
+    }
+
+    .P2 {
+        font-size: 14px;
+        color: #757575;
+    }
+
+    .MDpara {
+        position: absolute;
+        top: -16px;
+        left: 82px;
+        width: 273px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E8E8E8;
+        border-radius: 18px;
+        opacity: 1
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        padding-top: 10px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #F88634;
+        width: 133px;
+        height: 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 2px solid #F88634;
+        border-radius: 24px;
+        opacity: 1;
+    }
+
+
+
+
 }
